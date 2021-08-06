@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Regitro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="368dp"
+        android:onClick="Nombre"
+        android:text="Registro"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/CampoNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="95dp"
+        android:contentDescription="@string/nombre"
+        android:text="@string/nombre"
+        tools:text="@string/nombre" />
+
+
+    <TextView
+        android:id="@+id/CampoDocumen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="186dp"
+        android:contentDescription="@string/documento"
+        android:text="@string/documento"
+        tools:text="@string/documento" />
+
+    <TextView
+        android:id="@+id/CampoTelef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="280dp"
+        android:contentDescription="@string/telefono"
+        android:text="@string/telefono"
+        tools:text="@string/telefono" />
+
+    <EditText
+        android:id="@+id/campoNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="77dp"
+        android:contentDescription="@string/nombre"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/documentoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="170dp"
+        android:contentDescription="@string/documento"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/campoTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="270dp"
+        android:contentDescription="@string/telefono"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnConsultarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="440dp"
+        android:onClick="Consultarm"
+        android:text="Consultar"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

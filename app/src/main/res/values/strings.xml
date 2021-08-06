@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Ssilueta</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellido">Apellido</string>
+    <string name="documento">Documento</string>
+    <string name="telefono">Telefono</string>
+
+
+    <string name="edad">Edad</string>
+    <string name="cuello">Cuello</string>
+    <string name="cadera">Cadera</string>
+    <string name="cintura">Cintura</string>
+    <string name="peso">Peso</string>
+    <string name="altura">Altura</string>
+
+    <string name="Rbt_hombre">Hombre</string>
+    <string name="Rbt_mujer">Mujer</string>
+
+    <string name="button">Calcular</string>
+
+    <string name="imc">IMC</string>
+    <string name="calorias">Calorias</string>
+    <string name="kgGrasa">KgGrasa</string>
+    <string name="kgMusculo">KgMusculo</string>
+    <string name="proteina">Proteina día</string>
+    <string name="porGrasa">%Grasa</string>
+
+    <string name="button2">Graficar</string>
+    <string name="calcular">Regresar</string>
+
+    <string name="pocoejercicio">Poco Ejercicio</string>
+    <string name="paraMantener">Para Mantener</string>
+    <string name="parabajar">Para Bajar</string>
+    <string name="tresacincodias">3-5 dias</string>
+    <string name="seisasietedias">6-7 dias</string>
+
+    <string name="prueba">prue</string>
+
+</resources>

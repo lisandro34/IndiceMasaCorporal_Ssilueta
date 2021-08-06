@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Datos">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="167dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rbt_Hombre"
+            android:layout_width="98dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/Rbt_hombre" />
+
+        <RadioButton
+            android:id="@+id/rbt_Mujer"
+            android:layout_width="98dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/Rbt_mujer" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editText_cadera"
+        android:layout_width="100dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="340dp"
+        android:ems="10"
+        android:hint="@string/cadera"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_cintura"
+        android:layout_width="100dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="400dp"
+        android:ems="10"
+        android:hint="@string/cintura"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_peso"
+        android:layout_width="100dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:hint="@string/peso"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_cuello"
+        android:layout_width="100dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="280dp"
+        android:ems="10"
+        android:hint="@string/cuello"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_altura"
+        android:layout_width="100dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:hint="@string/altura"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_edad"
+        android:layout_width="100dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="@string/edad"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="478dp"
+        android:onClick="Calcular"
+        android:text="@string/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_Prueba"
+        android:layout_width="204dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/prueba" />
+
+</RelativeLayout>
